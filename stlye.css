@@ -25,7 +25,7 @@ body {
     padding: 0 2rem;
 }
 
-/* Navigation */
+
 nav {
     background: rgba(255, 255, 255, 0.95);
     padding: 1.5rem 0;
@@ -68,7 +68,7 @@ html {
     transform: translateY(-2px);
 }
 
-/* Header */
+
 header {
     padding: 6rem 0 4rem;
     min-height: 90vh;
@@ -107,7 +107,7 @@ header {
     color: #666;
 }
 
-/* Sections */
+
 section {
     padding: 6rem 0;
 }
@@ -130,7 +130,7 @@ section {
     background: var(--primary-color);
 }
 
-/* Skills */
+
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -162,12 +162,12 @@ section {
     font-weight: bold;
 }
 
-/* Projects */
+
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Ensures cards are side by side */
-    gap: 2rem; /* Adds spacing between cards */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem; 
     margin-top: 2rem;
 }
 
@@ -193,7 +193,7 @@ section {
     padding: 1.5rem;
 }
 
-/* Contact */
+
 .contact-form {
     max-width: 600px;
     margin: 0 auto;
@@ -217,7 +217,7 @@ input:focus, textarea:focus {
     border-color: var(--primary-color);
 }
 
-/* Buttons */
+
 .btn {
     display: inline-block;
     padding: 0.8rem 2rem;
@@ -249,7 +249,7 @@ input:focus, textarea:focus {
     color: white;
 }
 
-/* Footer */
+
 footer {
     background: var(--dark-color);
     color: white;
@@ -257,7 +257,7 @@ footer {
     text-align: center;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .hero {
         grid-template-columns: 1fr;
